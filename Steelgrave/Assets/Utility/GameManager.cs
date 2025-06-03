@@ -7,8 +7,13 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public Player Player;
-    public InputManager InputManager;
+    [SerializeField] private Player player;
+    [SerializeField] private InputManager inputManager;
+    [SerializeField] private UIManager uiManager;
+
+    private float overheat;
+
+    [SerializeField] private float cooldownRate;
 
     private void Awake()    
     {
@@ -19,7 +24,24 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        InputManager.Init(Player);
+        inputManager.Init(player);
+    }
+
+    private void Start()
+    {
+        overheat = 0;
+    }
+
+    public void HeatGenerate(float heat)
+    {
+        overheat += heat / 100;
+        uiManager.SetHeatFill(overheat);
+    }
+
+    public void HeatCooldown()
+    {
+        overheat -= cooldownRate;
+        uiManager.SetHeatFill(overheat);
     }
 
 

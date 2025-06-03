@@ -9,8 +9,11 @@ public class Player : MonoBehaviour
 
     public void Shoot()
     {
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation, firePoint);
+        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+
+
     }
+
 
 
 }

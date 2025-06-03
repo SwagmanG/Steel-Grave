@@ -122,7 +122,7 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("Holding...");
             // PUT COOLDOWN HERE
-            UIManager.Instance.UpdateHeat();
+            GameManager.Instance.HeatCooldown();
             yield return new WaitForSeconds(HoldInterval);
         }
     }

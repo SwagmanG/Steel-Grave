@@ -8,8 +8,6 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance;
     public Image HeatBar;
 
-    public float cooldownRate;
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -20,19 +18,9 @@ public class UIManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
     }
-
-    private void Start()
+    public void SetHeatFill(float fill)
     {
-        HeatBar.fillAmount = 0;
+        HeatBar.fillAmount = fill;
     }
-
-
-    public void UpdateHeat(float heat)
-    {
-        HeatBar.fillAmount += heat/100;
-    }
-    public void UpdateHeat()
-    {
-        HeatBar.fillAmount -= cooldownRate;
-    }
+   
 }

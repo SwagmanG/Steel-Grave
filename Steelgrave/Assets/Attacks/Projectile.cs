@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
 
     private void Awake()
     {
-        UIManager.Instance.UpdateHeat(heat);
+       GameManager.Instance.HeatGenerate(heat);
     }
 
     void Update()
