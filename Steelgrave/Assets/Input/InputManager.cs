@@ -69,7 +69,7 @@ public class InputManager : MonoBehaviour
 
         if (isRotating)
         {
-            player?.transform.Rotate(Vector3.up * rotationInput * rotationSpeed * Time.deltaTime);
+            player?.transform.Rotate(Vector3.forward * rotationInput * rotationSpeed * Time.deltaTime);
         }
 
         if (isPressed)
@@ -82,7 +82,6 @@ public class InputManager : MonoBehaviour
                 Debug.Log("Hold!");
                 StartCoroutine(HoldRoutine());
             }
-
         }
 
     }
@@ -149,13 +148,14 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("Down + Up");
             downPressed = false;
+            player.CannonDown(false);
             // LAUNCH ROCKET
             player?.Shoot(RocketProjectile);
         }
         else
         {
             Debug.Log("Up");
-            // FEEDBACK FOR CHARGING
+            // FEEDBACK FOR EMPTY SHOT
 
         }
     }
@@ -172,21 +172,19 @@ public class InputManager : MonoBehaviour
 
     IEnumerator LaunchRoutine()
     {
+
         float timer = 0f;
 
         while (timer < LaunchThreshold)
         {
+            if (!downPressed) yield break; 
+
             timer += Time.deltaTime;
+            player.CannonDown(true);
             yield return null;
         }
 
-        if (downPressed)
-        {
-            Debug.Log("Down");
-            downPressed = false;
-
-            // FEEDBACK FOR EMPTY SHOT
-
-        }
+        player.CannonDown(false);
+        downPressed = false;
     }
 }

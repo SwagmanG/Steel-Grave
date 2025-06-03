@@ -49,7 +49,7 @@ MonoBehaviour:
   rotationSpeed: 150
   HoldThreshold: 0.2
   HoldInterval: 0.1
-  LaunchThreshold: 0.3
+  LaunchThreshold: 0.5
 --- !u!1 &5114078664961959795
 GameObject:
   m_ObjectHideFlags: 0
