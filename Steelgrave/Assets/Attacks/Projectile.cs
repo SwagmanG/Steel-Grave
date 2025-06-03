@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] private float speed = 50f;
-    [SerializeField] private float damage = 5f;
-    [SerializeField] private float heat = 5f;
+    private ProjectileType p;
 
-    private void Awake()
+    public void Init(ProjectileType attack)
     {
-       GameManager.Instance.HeatGenerate(heat);
+        p = attack;
+        transform.localScale = Vector3.one * p.size;
+        GameManager.Instance.HeatGenerate(p.heat);
     }
 
     void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * p.speed * Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider other)

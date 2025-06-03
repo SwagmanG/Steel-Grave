@@ -11,6 +11,10 @@ public class InputManager : MonoBehaviour
 
     private Controls controls;
 
+    [Header("Attacks")]
+    public ProjectileType DefaultProjectile;
+    public ProjectileType RocketProjectile;
+
     [Header("Rotation")]
     public float rotationSpeed = 150f;
 
@@ -107,7 +111,7 @@ public class InputManager : MonoBehaviour
         {
             // PUT FIRE HERE
             Debug.Log("Tap!");
-            player?.Shoot();
+            player?.Shoot(DefaultProjectile);
         }
 
         timeHeld = 0f;
@@ -135,6 +139,7 @@ public class InputManager : MonoBehaviour
             Debug.Log("Down + Up");
             downPressed = false;
             // LAUNCH BOMB
+            player?.Shoot(RocketProjectile);
         }
         else
         {

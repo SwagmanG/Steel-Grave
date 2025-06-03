@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9d8acc00a901c4f90af4b1829b057d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DefaultProjectile: {fileID: 11400000, guid: e853b9e83cb5cae4c9d2bcba985c23ce, type: 2}
+  RocketProjectile: {fileID: 11400000, guid: c7de42f1afe884349be3fecec739a1b0, type: 2}
   rotationSpeed: 150
   HoldThreshold: 0.2
   HoldInterval: 0.1
@@ -93,5 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f25a728b8970c24a80c921778767ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 8047871227228299339, guid: bef4f64aec2a57f4699708db7f58a19a, type: 3}
-  InputManager: {fileID: 3255225034369350209, guid: ac4d59145243edf42948325124e6c057, type: 3}
+  player: {fileID: 0}
+  inputManager: {fileID: 3951793702260329668}
+  uiManager: {fileID: 0}
+  cooldownRate: 0.05
