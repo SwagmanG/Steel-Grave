@@ -99,3 +99,4 @@ MonoBehaviour:
   inputManager: {fileID: 3951793702260329668}
   uiManager: {fileID: 0}
   cooldownRate: 0.05
+  shutdownLength: 3

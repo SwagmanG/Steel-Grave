@@ -394,9 +394,9 @@
 "Assets/Attacks/ProjectileType.cs"
 "Assets/Input/Controls.cs"
 "Assets/Input/InputManager.cs"
+"Assets/UI/UIManager.cs"
 "Assets/Utility/DestroyOffScreen.cs"
 "Assets/Utility/GameManager.cs"
-"Assets/Utility/UIManager.cs"
 -langversion:9.0
 
 /deterministic

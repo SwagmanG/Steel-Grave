@@ -11,6 +11,8 @@ public class InputManager : MonoBehaviour
 
     private Controls controls;
 
+    private bool isDisabled;
+
     [Header("Attacks")]
     public ProjectileType DefaultProjectile;
     public ProjectileType RocketProjectile;
@@ -64,6 +66,7 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
+
         if (isRotating)
         {
             player?.transform.Rotate(Vector3.up * rotationInput * rotationSpeed * Time.deltaTime);
@@ -82,6 +85,14 @@ public class InputManager : MonoBehaviour
 
         }
 
+    }
+    public void SetDisabled(bool disabled)
+    {
+        isDisabled = disabled;
+        if (isDisabled)
+            controls.Disable();
+        else
+            controls.Enable();
     }
 
     //  ROTATION
@@ -138,7 +149,7 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("Down + Up");
             downPressed = false;
-            // LAUNCH BOMB
+            // LAUNCH ROCKET
             player?.Shoot(RocketProjectile);
         }
         else

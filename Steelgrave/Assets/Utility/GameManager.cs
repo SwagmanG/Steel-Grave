@@ -11,9 +11,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private InputManager inputManager;
     [SerializeField] private UIManager uiManager;
 
-    private float overheat;
+    private float overheat = 0;
+    public float Overheat { get { return overheat; } set { overheat = Mathf.Clamp(value, 0, 1); } }
 
     [SerializeField] private float cooldownRate;
+    [SerializeField] private float shutdownLength;
+
+    private bool isCooling = false;
 
     private void Awake()    
     {
@@ -29,20 +33,54 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        overheat = 0;
+        uiManager.SetHeatFill(Overheat);
+    }
+
+    private void Update()
+    {
+        if (Overheat >= 1 && !isCooling)
+        {
+            DisableTank();
+            Debug.LogError("OVERHEAT");
+        }
     }
 
     public void HeatGenerate(float heat)
     {
-        overheat += heat / 100;
-        uiManager.SetHeatFill(overheat);
+        Overheat += heat / 100;
+        uiManager.SetHeatFill(Overheat);
     }
 
     public void HeatCooldown()
     {
-        overheat -= cooldownRate;
-        uiManager.SetHeatFill(overheat);
+        Overheat -= cooldownRate;
+        uiManager.SetHeatFill(Overheat);
     }
 
+    private void DisableTank()
+    {
+        StartCoroutine(CooldownRoutine());
+    }
+
+    IEnumerator CooldownRoutine()
+    {
+        inputManager.SetDisabled(true);
+        isCooling = true;
+
+        float timer = 0f;
+
+        while (timer < shutdownLength)
+        {
+            timer += Time.deltaTime;
+
+            Overheat = Mathf.Lerp(1, 0, timer / shutdownLength);
+            uiManager.SetHeatFill(Overheat);
+
+            yield return null;
+        }
+
+        isCooling = false;
+        inputManager.SetDisabled(false);
+    }
 
 }

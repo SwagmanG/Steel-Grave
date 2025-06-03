@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform firePoint;
+    [SerializeField] private Transform firePoint; // where projectile originates from
 
     public void Shoot(ProjectileType attack)
     {
@@ -13,7 +13,5 @@ public class Player : MonoBehaviour
         projectile.GetComponent<Projectile>().Init(attack);
 
     }
-
-
 
 }
