@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: Testing
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2385432738445009787, guid: bef4f64aec2a57f4699708db7f58a19a, type: 3}
+      propertyPath: rotationSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4605219438564441043, guid: bef4f64aec2a57f4699708db7f58a19a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.5
