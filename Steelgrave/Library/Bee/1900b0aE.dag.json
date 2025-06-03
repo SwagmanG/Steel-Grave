@@ -408,8 +408,8 @@
       "DisplayName": "Writing UnityEngine.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
-      "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -424,7 +424,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 250,
+=======
+      "PayloadOffset": 231,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 49769,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -441,9 +445,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 50113,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 50094,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -3910,7 +3920,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 50279,
+=======
+      "PayloadOffset": 50241,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 9669,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4288,9 +4302,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 60053,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 60015,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4305,7 +4325,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 60188,
+=======
+      "PayloadOffset": 60131,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 43696,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -4322,9 +4346,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 103970,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 103913,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -5247,7 +5277,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 104128,
+=======
+      "PayloadOffset": 104052,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10469,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5652,9 +5686,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 114710,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 114634,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -5669,7 +5709,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 114853,
+=======
+      "PayloadOffset": 114758,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 59701,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -5686,9 +5730,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 174648,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 174553,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6693,7 +6743,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 174814,
+=======
+      "PayloadOffset": 174700,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10097,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7086,9 +7140,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 185016,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 184902,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7103,7 +7163,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 185151,
+=======
+      "PayloadOffset": 185018,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 40525,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -7120,9 +7184,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 225762,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 225629,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7820,7 +7890,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 225920,
+=======
+      "PayloadOffset": 225768,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10795,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -8237,9 +8311,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 236835,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 236683,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8254,7 +8334,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 236985,
+=======
+      "PayloadOffset": 236814,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 37759,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -8271,9 +8355,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 274845,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 274674,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8883,7 +8973,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 275018,
+=======
+      "PayloadOffset": 274828,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10871,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9303,9 +9397,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 285997,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 285807,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9320,7 +9420,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp",
       "DisplayName": "Writing Unity.InputSystem.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 286135,
+=======
+      "PayloadOffset": 285926,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 73692,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -9337,9 +9441,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2",
       "DisplayName": "Writing Unity.InputSystem.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 359916,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 359707,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -10642,7 +10752,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 360077,
+=======
+      "PayloadOffset": 359849,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10621,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -11053,9 +11167,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 370830,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 370602,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11070,7 +11190,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 370992,
+=======
+      "PayloadOffset": 370745,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 40532,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -11087,9 +11211,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 411637,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 411390,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11732,7 +11862,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 411822,
+=======
+      "PayloadOffset": 411556,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10871,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -12152,9 +12286,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 422807,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 422541,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12169,7 +12309,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 422951,
+=======
+      "PayloadOffset": 422666,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 69962,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -12186,9 +12330,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 493008,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 492723,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13445,7 +13595,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 493175,
+=======
+      "PayloadOffset": 492871,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10420,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -13850,9 +14004,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Rider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 503704,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 503400,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13867,7 +14027,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 503843,
+=======
+      "PayloadOffset": 503520,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 40103,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -13884,9 +14048,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2",
       "DisplayName": "Writing Unity.Rider.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 544036,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 543713,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -14525,7 +14695,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 544198,
+=======
+      "PayloadOffset": 543856,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10333,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -14927,9 +15101,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Settings.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 554643,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 554301,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -14944,7 +15124,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 554785,
+=======
+      "PayloadOffset": 554424,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 38475,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -14961,9 +15145,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2",
       "DisplayName": "Writing Unity.Settings.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 593353,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 592992,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15566,7 +15756,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 593518,
+=======
+      "PayloadOffset": 593138,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10871,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -15986,9 +16180,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 604531,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 604151,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16003,7 +16203,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 604703,
+=======
+      "PayloadOffset": 604304,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 39236,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -16020,9 +16224,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 644062,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 643663,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16629,7 +16839,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 644257,
+=======
+      "PayloadOffset": 643839,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10871,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -17049,9 +17263,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 655280,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 654862,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17066,7 +17286,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 655462,
+=======
+      "PayloadOffset": 655025,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 38009,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -17083,9 +17307,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 693604,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 693167,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17670,7 +17900,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 693809,
+=======
+      "PayloadOffset": 693353,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10871,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -18090,9 +18324,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 704788,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 704332,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18107,7 +18347,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 704926,
+=======
+      "PayloadOffset": 704451,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 40867,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -18124,9 +18368,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 745882,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 745407,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18809,7 +19059,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 746043,
+=======
+      "PayloadOffset": 745549,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10621,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -19220,9 +19474,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 756769,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 756275,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19237,7 +19497,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 756904,
+=======
+      "PayloadOffset": 756391,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 42414,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -19254,9 +19518,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 799404,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 798891,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19963,7 +20233,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 799562,
+=======
+      "PayloadOffset": 799030,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10621,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20374,9 +20648,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 810299,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 809767,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -20391,7 +20671,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 810445,
+=======
+      "PayloadOffset": 809894,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 40389,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -20408,9 +20692,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 850931,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 850380,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21059,7 +21349,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 851100,
+=======
+      "PayloadOffset": 850530,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10333,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -21461,9 +21755,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 861548,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 860978,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21478,7 +21778,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 861693,
+=======
+      "PayloadOffset": 861104,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 37543,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -21495,9 +21799,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 899332,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 898743,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22104,7 +22414,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 899500,
+=======
+      "PayloadOffset": 898892,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10956,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -22527,9 +22841,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 910570,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 909962,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22544,7 +22864,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 910714,
+=======
+      "PayloadOffset": 910087,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 36384,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -22561,9 +22885,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp2",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 947193,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 946566,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23156,7 +23486,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 947360,
+=======
+      "PayloadOffset": 946714,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10700,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -23570,9 +23904,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 958182,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 957536,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23587,7 +23927,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 958334,
+=======
+      "PayloadOffset": 957669,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 35292,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -23604,9 +23948,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp2",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 993729,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 993064,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24160,7 +24510,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 993904,
+=======
+      "PayloadOffset": 993220,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10068,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -24553,9 +24907,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1004098,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1003414,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24570,7 +24930,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1004254,
+=======
+      "PayloadOffset": 1003551,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 41791,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -24587,9 +24951,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1046152,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1045449,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25330,7 +25700,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1046331,
+=======
+      "PayloadOffset": 1045609,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10652,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -25741,9 +26115,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1057098,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1056376,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25758,7 +26138,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1057243,
+=======
+      "PayloadOffset": 1056502,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 42287,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -25775,9 +26159,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1099626,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1098885,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26492,7 +26882,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1099794,
+=======
+      "PayloadOffset": 1099034,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10950,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -26915,9 +27309,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1110856,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1110096,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26932,7 +27332,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1110998,
+=======
+      "PayloadOffset": 1110219,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 61758,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -26949,9 +27353,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1172849,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1172070,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28100,7 +28510,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1173014,
+=======
+      "PayloadOffset": 1172216,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10947,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -28523,9 +28937,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1184078,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1183280,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28540,7 +28960,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1184225,
+=======
+      "PayloadOffset": 1183408,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 90173,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -28557,9 +28981,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1274496,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1273679,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29977,7 +30407,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1274666,
+=======
+      "PayloadOffset": 1273830,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10700,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -30391,9 +30825,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1285490,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1284654,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30408,7 +30848,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1285644,
+=======
+      "PayloadOffset": 1284789,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 94423,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -30425,9 +30869,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1380172,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1379317,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31972,7 +32422,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1380349,
+=======
+      "PayloadOffset": 1379475,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10959,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -32395,9 +32849,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1391425,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1390551,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -32412,7 +32872,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1391572,
+=======
+      "PayloadOffset": 1390679,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 85702,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -32429,9 +32893,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1477372,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1476479,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -33802,7 +34272,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1477542,
+=======
+      "PayloadOffset": 1476630,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10788,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -34219,9 +34693,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1488454,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1487542,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -34236,7 +34716,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1488608,
+=======
+      "PayloadOffset": 1487677,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 58030,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -34253,9 +34737,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1546743,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1545812,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -35230,7 +35720,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1546920,
+=======
+      "PayloadOffset": 1545970,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 11221,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -35662,9 +36156,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1558259,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1557309,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -35679,7 +36179,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1558407,
+=======
+      "PayloadOffset": 1557438,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 39550,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -35696,9 +36200,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1598056,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1597087,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -36327,7 +36837,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1598227,
+=======
+      "PayloadOffset": 1597239,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 10797,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -36744,9 +37258,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1609160,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1608172,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -36761,7 +37281,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1609326,
+=======
+      "PayloadOffset": 1608319,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 38900,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -36778,9 +37302,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1648343,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1647336,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -37440,7 +37970,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1648532,
+=======
+      "PayloadOffset": 1647506,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 11326,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -37875,9 +38409,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1659983,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1658957,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -37892,7 +38432,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1660138,
+=======
+      "PayloadOffset": 1659093,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 45857,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -37909,9 +38453,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1706101,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1705056,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -38639,7 +39189,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1706279,
+=======
+      "PayloadOffset": 1705215,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 11326,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -39074,9 +39628,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1717731,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1716667,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -39091,7 +39651,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1717887,
+=======
+      "PayloadOffset": 1716804,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 38003,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -39108,9 +39672,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1755997,
       "PayloadLength": 63,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\s2433007\\Do",
+=======
+      "PayloadOffset": 1754914,
+      "PayloadLength": 44,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Github\\Steelgrave",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -39732,7 +40302,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1756176,
+=======
+      "PayloadOffset": 1755074,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 11422,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -40170,9 +40744,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1767704,
       "PayloadLength": 50,
       "PayloadDebugContentSnippet": "C:\\Users\\s2433007\\Documents\\St",
+=======
+      "PayloadOffset": 1766602,
+      "PayloadLength": 31,
+      "PayloadDebugContentSnippet": "C:\\Github\\Steelgrave\\Steelgrav",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -40187,8 +40767,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1767840,
       "PayloadLength": 36701,
+=======
+      "PayloadOffset": 1766719,
+      "PayloadLength": 36875,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -40204,7 +40789,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1804628,
+=======
+      "PayloadOffset": 1803681,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -40483,8 +41072,18 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+<<<<<<< HEAD
         "Assets/Controls.cs",
         "Assets/InputManager.cs",
+=======
+        "Assets/Attacks/Player.cs",
+        "Assets/Attacks/Projectile.cs",
+        "Assets/Input/Controls.cs",
+        "Assets/Input/InputManager.cs",
+        "Assets/Utility/DestroyOffScreen.cs",
+        "Assets/Utility/GameManager.cs",
+        "Assets/Utility/UIManager.cs",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
         "C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
@@ -40757,6 +41356,14 @@
         0,
         0,
         0,
+<<<<<<< HEAD
+=======
+        0,
+        0,
+        0,
+        0,
+        0,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
         8
       ],
       "Outputs": [
@@ -41066,7 +41673,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1804724,
+=======
+      "PayloadOffset": 1803777,
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "PayloadLength": 11937,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -42778,7 +43389,11 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
+<<<<<<< HEAD
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\" -s=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\Users\\s2433007\\Documents\\Steel-Grave\\Steelgrave\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+=======
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\ScriptAssemblies\" -s=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\" -s=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\Github\\Steelgrave\\Steelgrave\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -43102,6 +43717,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/s2433007/Documents/Steel-Grave/Steelgrave/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Github/Steelgrave/Steelgrave/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

@@ -389,8 +389,18 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+<<<<<<< HEAD
 "Assets/Controls.cs"
 "Assets/InputManager.cs"
+=======
+"Assets/Attacks/Player.cs"
+"Assets/Attacks/Projectile.cs"
+"Assets/Input/Controls.cs"
+"Assets/Input/InputManager.cs"
+"Assets/Utility/DestroyOffScreen.cs"
+"Assets/Utility/GameManager.cs"
+"Assets/Utility/UIManager.cs"
+>>>>>>> ad94f060ed8b8d7cbba7230bc26b81279377a872
 -langversion:9.0
 
 /deterministic
