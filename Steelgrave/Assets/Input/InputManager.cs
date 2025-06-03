@@ -7,10 +7,12 @@ using UnityEngine.InputSystem.Interactions;
 
 public class InputManager : MonoBehaviour
 {
+    private Player player;
+
     private Controls controls;
 
     [Header("Rotation")]
-    public float rotationSpeed = 100f;
+    public float rotationSpeed = 150f;
 
     private bool isRotating = false;
     private float rotationInput;
@@ -29,6 +31,10 @@ public class InputManager : MonoBehaviour
 
     private bool downPressed = false;
 
+    public void Init(Player _player)
+    {
+        player = _player;
+    }
 
     private void Awake()
     {
@@ -56,7 +62,7 @@ public class InputManager : MonoBehaviour
     {
         if (isRotating)
         {
-            transform.Rotate(Vector3.up * rotationInput * rotationSpeed * Time.deltaTime);
+            player?.transform.Rotate(Vector3.up * rotationInput * rotationSpeed * Time.deltaTime);
         }
 
         if (isPressed)
@@ -101,6 +107,7 @@ public class InputManager : MonoBehaviour
         {
             // PUT FIRE HERE
             Debug.Log("Tap!");
+            player?.Shoot();
         }
 
         timeHeld = 0f;
@@ -115,6 +122,7 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("Holding...");
             // PUT COOLDOWN HERE
+            UIManager.Instance.UpdateHeat();
             yield return new WaitForSeconds(HoldInterval);
         }
     }
