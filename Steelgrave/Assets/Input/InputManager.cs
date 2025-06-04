@@ -139,7 +139,7 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("Holding...");
             // PUT COOLDOWN HERE
-            GameManager.Instance.HeatCooldown();
+            GameManager.Instance.HeatCooldown(GameManager.Instance.CooldownRate);
             yield return new WaitForSeconds(HoldInterval);
         }
     }

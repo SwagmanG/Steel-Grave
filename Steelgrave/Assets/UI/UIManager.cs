@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image healthBar;
 
     [SerializeField] public GameObject OverheatFlash;
+    [SerializeField] private TMP_Text DamageBuff;
+
     [SerializeField] public GameObject EndUI;
 
     [SerializeField] private TMP_Text score;
@@ -130,6 +132,17 @@ public class UIManager : MonoBehaviour
     public void SetHeatFill(float _fill)
     {
         heatBar.fillAmount = _fill;
+        
+        if(_fill >= 0.5)
+        {
+            DamageBuff.text = ($"{Mathf.Round((_fill * 100) / 4)}% dmg buff");
+        }
+        else
+        {
+            DamageBuff.text = "";
+        }
+
+        
     }
     public void SetHealthFill(float _fill)
     {

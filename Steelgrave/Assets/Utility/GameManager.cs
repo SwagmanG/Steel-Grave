@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     private float overheat = 0;
     public float Overheat { get { return overheat; } set { overheat = Mathf.Clamp(value, 0, 1); } }
 
-    [SerializeField] private float cooldownRate;
+    [SerializeField] public float CooldownRate;
     [SerializeField] private float shutdownLength;
 
     private bool isCooling = false;
@@ -54,6 +54,11 @@ public class GameManager : MonoBehaviour
             DisableTank();
             Debug.LogError("OVERHEAT");
         }
+
+        HeatCooldown(GameManager.Instance.CooldownRate/100); // auto cooldown
+
+        player.DamageBuff = Overheat;
+        //Debug.Log(player.DamageBuff);
     }
 
     // Game state
@@ -97,9 +102,9 @@ public class GameManager : MonoBehaviour
         uiManager.SetHeatFill(Overheat);
     }
 
-    public void HeatCooldown()
+    public void HeatCooldown(float cool)
     {
-        Overheat -= cooldownRate;
+        Overheat -= cool / 100;
         uiManager.SetHeatFill(Overheat);
     }
 

@@ -8,6 +8,9 @@ public class Projectile : MonoBehaviour
 {
     private ProjectileType p;
 
+    // status effects
+    public float DamageBuff;
+
     // for rocket
     private RaycastHit[] hits;
     public float splashRadius = 5f;
@@ -15,11 +18,12 @@ public class Projectile : MonoBehaviour
     public GameObject ExplosionPrefab;
     public float explosionLength;
 
-    public void Init(ProjectileType attack)
+    public void Init(ProjectileType attack, float dmgBuff)
     {
         p = attack;
         transform.localScale = Vector3.one * p.size;
         GameManager.Instance.HeatGenerate(p.heat);
+        DamageBuff = dmgBuff;
     }
 
     void Update()
@@ -56,7 +60,18 @@ public class Projectile : MonoBehaviour
     {
         if (enemy != null)
         {
-            enemy.TakeDamage(p.damage);
+            Debug.LogError($"damage {p.damage} x {DamageBuff*100}% = {p.damage * (DamageBuff+1)}");
+
+            if(DamageBuff >= 0.5)
+            {
+                enemy.TakeDamage(p.damage * (DamageBuff + 1));
+            }
+            else
+            {
+                enemy.TakeDamage(p.damage);
+            }
+
+
 
             if (enemy.currentHealth <= 0)
             {

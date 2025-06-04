@@ -15,5 +15,5 @@ MonoBehaviour:
   maxHealth: 15
   damage: 10
   speed: 0.5
-  size: 2
+  size: 1
   points: 3

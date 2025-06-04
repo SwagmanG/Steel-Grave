@@ -8,10 +8,12 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform firePoint; // where projectile originates from
     [SerializeField] private Transform cannon; // for cannon anim
 
+    public float DamageBuff;
+
     public void Shoot(ProjectileType attack)
     {
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        projectile.GetComponent<Projectile>().Init(attack);
+        projectile.GetComponent<Projectile>().Init(attack, DamageBuff/4);
 
         StartCoroutine(ShootCoroutine());
 
