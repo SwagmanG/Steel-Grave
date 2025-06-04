@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
     public void OnStartGame()
     {
         inputManager.Init(player);
-        uiManager.SetHeatFill(Overheat);
+        uiManager.SetHeatFill(0);
         uiManager.OverheatFlash.SetActive(false);
         spawner.isSpawning = true;
 

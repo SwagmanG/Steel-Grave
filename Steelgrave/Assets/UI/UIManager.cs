@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image healthBar;
 
     [SerializeField] public GameObject OverheatFlash;
+    [SerializeField] public GameObject EndUI;
 
     [SerializeField] private TMP_Text score;
     [SerializeField] private TMP_Text highScore;
@@ -117,6 +118,12 @@ public class UIManager : MonoBehaviour
         SetLayout(MenuLayouts.End);
         SetEndScore(GameManager.Instance.Score, GameManager.Instance.HighScore);
         EventSystem.current.SetSelectedGameObject(endFirstButton);
+        EndUI.SetActive(false);
+        Invoke(nameof(ShowEndUI), 3f);
+    }
+    void ShowEndUI()
+    {
+        EndUI.SetActive(true);
     }
 
     // UI ELEMENTS
