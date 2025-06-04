@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour
         {
             Debug.LogWarning("Projectile hit the enemy!");
             //other.TakeDamage(projectileDamage);
+            GameManager.Instance.IncreaseScore(1);
         }
     }
 

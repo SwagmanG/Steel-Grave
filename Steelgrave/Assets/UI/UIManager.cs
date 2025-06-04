@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -7,7 +8,10 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
-    public Image HeatBar;
+    [SerializeField] private Image heatBar;
+
+    [SerializeField] private TMP_Text score;
+    [SerializeField] private TMP_Text highScore;
 
     [SerializeField] private GameObject[] Layouts;
 
@@ -107,9 +111,15 @@ public class UIManager : MonoBehaviour
     }
 
     // UI ELEMENTS
-    public void SetHeatFill(float fill)
+    public void SetHeatFill(float _fill)
     {
-        HeatBar.fillAmount = fill;
+        heatBar.fillAmount = _fill;
     }
-   
+
+    public void SetScore(int _score, int _highScore)
+    {
+        score.text = _score.ToString();
+        highScore.text = _highScore.ToString();
+    }
+
 }

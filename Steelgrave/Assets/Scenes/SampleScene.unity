@@ -1139,7 +1139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4db17edb54b0340b9ac09a2a20a11d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeatBar: {fileID: 1444264029}
+  heatBar: {fileID: 1444264029}
+  score: {fileID: 1236865809}
+  highScore: {fileID: 1276351796}
   Layouts:
   - {fileID: 2143455252}
   - {fileID: 1737305187}

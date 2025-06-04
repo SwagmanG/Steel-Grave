@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 
     private bool isCooling = false;
 
+    public int Score = 0;
+    public int HighScore = 0;
+
     private void Awake()    
     {
         if (Instance != null && Instance != this)
@@ -104,6 +107,19 @@ public class GameManager : MonoBehaviour
 
         isCooling = false;
         inputManager.SetDisabled(false);
+    }
+
+     // Score
+
+    public void IncreaseScore(int score)
+    {
+        Score += score;
+        if (Score >= HighScore)
+        {
+            HighScore = Score; 
+        }
+
+        uiManager.SetScore(Score, HighScore);
     }
 
 }
