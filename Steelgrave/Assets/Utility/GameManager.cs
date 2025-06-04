@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    private bool gameStarted = false;
 
     [SerializeField] private Player player;
     [SerializeField] private InputManager inputManager;
@@ -28,14 +29,7 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        inputManager.Init(player);
     }
-
-    private void Start()
-    {
-        uiManager.SetHeatFill(Overheat);
-    }
-
     private void Update()
     {
         if (Overheat >= 1 && !isCooling)
@@ -45,6 +39,35 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Game state
+    public void OnStartGame()
+    {
+        inputManager.Init(player);
+        uiManager.SetHeatFill(Overheat);
+        gameStarted = true;
+    }
+    /*public void OnResetGame()
+    {
+        *//*StopAllCoroutines();
+         *
+         * and more here
+         *
+        OnStartGame();*//*
+    }*/
+
+    public void OnOptions()
+    {
+        gameStarted = false;
+    }
+
+    public void OnQuitGame()
+    {
+        Application.Quit();
+    }
+
+   
+
+    // Overheat
     public void HeatGenerate(float heat)
     {
         Overheat += heat / 100;

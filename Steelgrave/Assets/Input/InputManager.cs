@@ -59,6 +59,8 @@ public class InputManager : MonoBehaviour
 
         // down
         controls.TankControls.Down.performed += DownPerformed;
+
+       
     }
 
     private void OnEnable() => controls.Enable();
@@ -92,6 +94,7 @@ public class InputManager : MonoBehaviour
             controls.Disable();
         else
             controls.Enable();
+
     }
 
     //  ROTATION
