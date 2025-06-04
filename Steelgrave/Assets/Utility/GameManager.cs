@@ -5,12 +5,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("References")]
     public static GameManager Instance;
-    private bool gameStarted = false;
 
     [SerializeField] private Player player;
     [SerializeField] private InputManager inputManager;
     [SerializeField] private UIManager uiManager;
+    [SerializeField] private Spawner spawner;
+
+    [Header("Game")]
+    public int Score = 0;
+    public int HighScore = 0;
+
+    [Header("Tank")]
+    public float Health = 100;
 
     private float overheat = 0;
     public float Overheat { get { return overheat; } set { overheat = Mathf.Clamp(value, 0, 1); } }
@@ -19,9 +27,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float shutdownLength;
 
     private bool isCooling = false;
-
-    public int Score = 0;
-    public int HighScore = 0;
+    bool isGameOver = false;
 
     private void Awake()    
     {
@@ -35,6 +41,14 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
+        if(Health <= 0 && !isGameOver)
+        {
+            isGameOver = true;
+            inputManager.SetDisabled(true);
+            uiManager.ActivateEnd();
+            spawner.isSpawning = false;
+        }
+
         if (Overheat >= 1 && !isCooling)
         {
             DisableTank();
@@ -47,28 +61,34 @@ public class GameManager : MonoBehaviour
     {
         inputManager.Init(player);
         uiManager.SetHeatFill(Overheat);
-        gameStarted = true;
-    }
-    /*public void OnResetGame()
-    {
-        *//*StopAllCoroutines();
-         *
-         * and more here
-         *
-        OnStartGame();*//*
-    }*/
+        uiManager.OverheatFlash.SetActive(false);
+        spawner.isSpawning = true;
 
-    public void OnOptions()
+        Health = 100;
+        Overheat = 0;
+        Score = 0;
+        isCooling = false;
+        isGameOver = false;
+    }
+
+    public void OnResetGame()
     {
-        gameStarted = false;
+        GameObject[] enemiesToDestroy = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject obj in enemiesToDestroy)
+        {
+            Destroy(obj);
+        }
+
+        uiManager.ActivateGame(); 
+        inputManager.SetDisabled(false);
+        OnStartGame();
     }
 
     public void OnQuitGame()
     {
         Application.Quit();
     }
-
-   
 
     // Overheat
     public void HeatGenerate(float heat)
@@ -90,6 +110,8 @@ public class GameManager : MonoBehaviour
 
     IEnumerator CooldownRoutine()
     {
+        uiManager.OverheatFlash.SetActive(true);
+
         inputManager.SetDisabled(true);
         isCooling = true;
 
@@ -107,9 +129,8 @@ public class GameManager : MonoBehaviour
 
         isCooling = false;
         inputManager.SetDisabled(false);
+        uiManager.OverheatFlash.SetActive(false);
     }
-
-     // Score
 
     public void IncreaseScore(int score)
     {
@@ -120,6 +141,11 @@ public class GameManager : MonoBehaviour
         }
 
         uiManager.SetScore(Score, HighScore);
+    }
+    public void TakeDamage(float dmg)
+    {
+        Health -= dmg;
+        uiManager.SetHealthFill(Health/100);
     }
 
 }

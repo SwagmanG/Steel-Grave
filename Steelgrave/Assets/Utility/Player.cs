@@ -30,6 +30,14 @@ public class Player : MonoBehaviour
 
         CannonDown(false);
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.LogWarning("Enemy hit player!");
+            GameManager.Instance.TakeDamage(10);
+        }
+    }
 
     public void CannonDown(bool isDown)
     {

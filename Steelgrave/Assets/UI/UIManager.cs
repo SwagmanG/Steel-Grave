@@ -9,9 +9,15 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     [SerializeField] private Image heatBar;
+    [SerializeField] private Image healthBar;
+
+    [SerializeField] public GameObject OverheatFlash;
 
     [SerializeField] private TMP_Text score;
     [SerializeField] private TMP_Text highScore;
+
+    [SerializeField] private TMP_Text endScore;
+    [SerializeField] private TMP_Text endHighScore;
 
     [SerializeField] private GameObject[] Layouts;
 
@@ -51,23 +57,21 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.OnStartGame();
         ActivateGame();
     }
-    /*public void OnRestartButton()
+    
+    public void OnRestartButton()
     {
         Debug.Log("Restart Button");
         GameManager.Instance.OnResetGame();
-        ActivateGame();
-    }*/
+    }
     public void OnPauseButton()
     {
         Debug.Log("Pause Button");
-        GameManager.Instance.OnOptions();
         ActivatePause();
     }
 
     public void OnBackButton()
     {
         Debug.Log("Back Button");
-        GameManager.Instance.OnOptions();
         ActivateStart();
     }
 
@@ -97,6 +101,10 @@ public class UIManager : MonoBehaviour
     public void ActivateGame()
     {
         SetLayout(MenuLayouts.Game);
+
+        SetHeatFill(0f);
+        SetHealthFill(1f);
+        SetScore(0, GameManager.Instance.HighScore);
     }
     public void ActivatePause()
     {
@@ -107,6 +115,7 @@ public class UIManager : MonoBehaviour
     public void ActivateEnd()
     {
         SetLayout(MenuLayouts.End);
+        SetEndScore(GameManager.Instance.Score, GameManager.Instance.HighScore);
         EventSystem.current.SetSelectedGameObject(endFirstButton);
     }
 
@@ -115,11 +124,20 @@ public class UIManager : MonoBehaviour
     {
         heatBar.fillAmount = _fill;
     }
+    public void SetHealthFill(float _fill)
+    {
+        healthBar.fillAmount = _fill;
+    }
 
     public void SetScore(int _score, int _highScore)
     {
         score.text = _score.ToString();
         highScore.text = _highScore.ToString();
+    }
+    public void SetEndScore(int _score, int _highScore)
+    {
+        endScore.text = _score.ToString();
+        endHighScore.text = _highScore.ToString();
     }
 
 }

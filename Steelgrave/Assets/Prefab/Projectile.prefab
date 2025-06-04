@@ -150,6 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269a096071b2c2f469184cbeea695866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  splashRadius: 5
+  ExplosionPrefab: {fileID: 1950848371395140826, guid: f739b5c6f24f57c4ea5a91b0f1c0e59a, type: 3}
+  explosionLength: 0.2
 --- !u!114 &-1926822786987224713
 MonoBehaviour:
   m_ObjectHideFlags: 0
