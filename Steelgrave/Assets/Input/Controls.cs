@@ -232,8 +232,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""387e1eb8-6e8e-49c1-827a-84b4c3f3b617"",
-                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""id"": ""d4a98502-6317-426f-9889-e906bcda4285"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -287,6 +287,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""e95bd170-6845-4c67-a883-1cb8892a39e3"",
+                    ""path"": ""<Joystick>/stick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""5ef0d7c4-fbc7-4ee7-b6ea-e56ee6527646"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
@@ -300,17 +311,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""c84fca45-e1fc-4402-98c9-d813b4ef87df"",
                     ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Down"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e95bd170-6845-4c67-a883-1cb8892a39e3"",
-                    ""path"": ""<Joystick>/stick/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
